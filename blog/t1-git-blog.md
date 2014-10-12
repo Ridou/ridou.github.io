@@ -11,14 +11,10 @@
   simple, so you can just feel free to type. =) -->
 
 
-# Title
-#### Subtitle
-#### Date
+# Fun with GitHub
+#### Version Control, Tracking Changes, Storing
+#### 10/12/2014
 
-Paragraph 1
+I'm not accustumed to blogging because I am used to having an interactive conversation with people, so I will attempt it by acting like I am talking to my dog, which only responds with woof and woof woof. 
 
-Paragraph 2
-
-Paragraph 3
-
-Add as many paragraphs as you want!!!
+Version control is the most important feature when working within a team. You can track the changes of the work that everyone has done in the past or just see how the repository went from 0 to 100 real quick through as many commits through out the years. The most important part to assess is that if for some reason the earliest commit created a bug in which something stopped working, you can go back to the old stored commits and find the bug faster. So, don't worry about making a mistake because you can always go back to the previous saved state. You have yet to bark Luca, so I imagine you understood the importance of having version control. 
