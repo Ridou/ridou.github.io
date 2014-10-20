@@ -1,7 +1,7 @@
-html {
+.html {
   background-color: white;
 }
-wrapper {
+#wrapper {
 	display: block;
 	width: 960px;
 	margin-left:auto;
@@ -15,17 +15,17 @@ wrapper {
 	display: inline-block;
 	background-color: red;
 }
-content {
+#content {
   	width:660px;
   }
-leftcol {
+#leftcol {
 	float: left;
 	width: 300px;
 }
-rightcol {
+#rightcol {
 	float: right;
 	width: 300px;
-
-footer {
+}
+.footer {
 	height:80px;
 }
