@@ -1,0 +1,31 @@
+html {
+  background-color: white;
+}
+wrapper {
+	display: block;
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 36px;
+}
+.header {
+	position:static;
+	height: 150px;
+	position: fixed;
+	display: inline-block;
+	background-color: red;
+}
+content {
+  	width:660px;
+  }
+leftcol {
+	float: left;
+	width: 300px;
+}
+rightcol {
+	float: right;
+	width: 300px;
+
+footer {
+	height:80px;
+}
