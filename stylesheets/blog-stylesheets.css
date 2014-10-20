@@ -1,31 +1,46 @@
-.html {
+html {
   background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-wrapper {
-	display: block;
-	background-color: red;
-	width: 960px;
-	margin-left:auto;
-	margin-right:auto;
-	font-size: 36px;
+.body {
 }
-.header {
-	position:static;
-	height: 150px;
-	display: inline-block;
-	background-color: red;
+.wrapper {
+	background-color: white;
+	width: 100%;
+	margin: 10px auto;
+	height: 100%;
 }
-content {
-  	width:660px;
+header {
+	min-height: 80px;
+	background-color: yellow;
+}
+.container {
+	background-color: white;
+	min-height: 350px;
+	overflow: hidden;
+	height:80%;
   }
-leftcol {
+.leftcol {
+	min-height: 350px;
+	background-color: green;
 	float: left;
-	width: 300px;
+	width: 200px;
 }
-rightcol {
-	float: right;
-	width: 300px;
+.rightcol {
+	min-height: 350px;
+	background: lightblue;
+	float:right;
+	width: 200px;
 }
-.footer {
-	height:80px;
+.content {
+	background-color: red;
+	min-height: 350px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+footer {
+	min-height:80px;
+	background-color: purple;
 }
