@@ -5,6 +5,7 @@ html {
   height: 100%;
 }
 body {
+
 }
 .wrapper {
 	background-color: white;
@@ -28,11 +29,115 @@ header {
 	float: left;
 	width: 200px;
 }
+.leftcol ul {
+	background-color: beige;
+	list-style-type: none;
+
+}
+.leftcol ul li {
+	position: relative;
+	margin: 5px;
+	display: inline-block;
+  	position: relative;
+  	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	
+}
+.leftcol ul li:before {
+	pointer-events: none;
+  	position: absolute;
+  	content: '';
+  	height: 0;
+  	width: 0;
+  	top: 0;
+  	left: 0;
+  	background: white;
+  	/* IE9 */
+	background: -webkit-linear-gradient(top left, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
+	background: -o-linear-gradient(top left, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
+	background: linear-gradient(to bottom right, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#000000');
+  	/*For IE7-8-9*/
+  	z-index: 1000;
+  	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+  	-webkit-transition-property: width, height;
+  	transition-property: width, height;
+
+}
+.leftcol ul li:hover:before, .leftcol:focus:before, .leftcol:active:before {
+	width: 25px;
+  	height: 25px;
+
+}
+.leftcol ul li a {
+	display: block;
+	text-align: center;
+	height: 20px;
+	text-decoration: none;
+	width: 150px;
+	line-height: 20px;
+}
+.leftcol ul li a:hover {
+	background-color: red;
+}
 .rightcol {
 	min-height: 550px;
 	background: lightblue;
 	float:right;
 	width: 200px;
+}
+.rightcol ul {
+	background-color: beige;
+	list-style-type: none;
+
+}
+.rightcol ul li {
+	position: relative;
+	display: inline-block;
+  	position: relative;
+  	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	
+}
+.rightcol ul li:before {
+	pointer-events: none;
+  	position: absolute;
+  	content: '';
+  	height: 0;
+  	width: 0;
+  	top: 0;
+  	right: 0;
+  	background: white;
+  	/* IE9 */
+	background: -webkit-linear-gradient(top right, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
+	background: -o-linear-gradient(top right, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
+	background: linear-gradient(to bottom left, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
+	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+  	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+  	-webkit-transition-property: width, height;
+  	transition-property: width, height;
+
+}
+.rightcol ul li:hover:before, .leftcol:focus:before, .leftcol:active:before {
+	width: 25px;
+  	height: 25px;
+
+}
+.rightcol ul li a {
+	display: block;
+	text-align: center;
+	height: 20px;
+	text-decoration: none;
+	width: 150px;
+	line-height: 20px;
+}
+.rightcol ul li a:hover {
+	background-color: red;
 }
 .content {
 	background-color: red;
@@ -46,15 +151,15 @@ footer {
 	overflow: hidden;
 }
 .calendar {
-
 	float: right;
-	padding: 10px;
+	margin: 10px;
 	position: relative;
+	overflow: hidden;
 }
-.calendar iframe,
-.calendar object,{
-	top: 0;
-	left: 0;
+.calendar iframe,{
+	position: absolute;
+	bottom: 0;
+	right: 0;
 	width: 100% !important;
 	height: 100% !important;
 }
