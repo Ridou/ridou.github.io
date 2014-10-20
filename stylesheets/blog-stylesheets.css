@@ -4,7 +4,7 @@ html {
   padding: 0;
   height: 100%;
 }
-.body {
+body {
 }
 .wrapper {
 	background-color: white;
@@ -18,29 +18,43 @@ header {
 }
 .container {
 	background-color: white;
-	min-height: 350px;
+	min-height: 550px;
 	overflow: hidden;
 	height:80%;
   }
 .leftcol {
-	min-height: 350px;
+	min-height: 550px;
 	background-color: green;
 	float: left;
 	width: 200px;
 }
 .rightcol {
-	min-height: 350px;
+	min-height: 550px;
 	background: lightblue;
 	float:right;
 	width: 200px;
 }
 .content {
 	background-color: red;
-	min-height: 350px;
+	min-height: 550px;
 	margin-left: 200px;
 	margin-right: 200px;
 }
 footer {
-	min-height:80px;
+	min-height:260px;
 	background-color: purple;
+	overflow: hidden;
+}
+.calendar {
+
+	float: right;
+	padding: 10px;
+	position: relative;
+}
+.calendar iframe,
+.calendar object,{
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
 }
