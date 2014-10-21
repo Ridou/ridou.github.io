@@ -14,35 +14,56 @@ body {
 	height: 100%;
 }
 header {
-	min-height: 80px;
+	min-height: 130px;
 	background-color: yellow;
 }
 .container {
 	background-color: white;
-	min-height: 550px;
+	min-height: 600px;
 	overflow: hidden;
 	height:80%;
   }
 .leftcol {
-	min-height: 550px;
+	min-height: 600px;
 	background-color: green;
 	float: left;
 	width: 200px;
+	text-align: center;
 }
 .leftcol ul {
 	background-color: beige;
 	list-style-type: none;
-
+	min-height: 550px;
 }
 .leftcol ul li {
-	position: relative;
-	margin: 5px;
 	display: inline-block;
   	position: relative;
+  	float:right;
   	-webkit-transform: translateZ(0);
   	transform: translateZ(0);
-  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	
+  	-moz-box-shadow:inset 0px 0px 5px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 0px 10px 0px #f5978e;
+	box-shadow:inset 0px 0px 5px 0px #f5978e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24537;
+	border:1px solid #d02718;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #810e05;
+	-moz-border-radius-bottomleft: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 .leftcol ul li:before {
 	pointer-events: none;
@@ -74,17 +95,16 @@ header {
 }
 .leftcol ul li a {
 	display: block;
-	text-align: center;
-	height: 20px;
+	text-align: center;	
 	text-decoration: none;
+	color: black;
 	width: 150px;
 	line-height: 20px;
 }
 .leftcol ul li a:hover {
-	background-color: red;
 }
 .rightcol {
-	min-height: 550px;
+	min-height: 600px;
 	background: lightblue;
 	float:right;
 	width: 200px;
@@ -139,11 +159,16 @@ header {
 .rightcol ul li a:hover {
 	background-color: red;
 }
-.content {
+.centercol {
 	background-color: red;
-	min-height: 550px;
+	min-height: 600px;
 	margin-left: 200px;
 	margin-right: 200px;
+}
+.content {
+	margin: auto;
+	padding: 15px;
+	text-align: center;
 }
 footer {
 	min-height:260px;
