@@ -1,6 +1,7 @@
 html {
   background-color: white;
   height: 100%;
+  font-family: Varela Round;
 }
 body {
 	margin: 0;
@@ -222,11 +223,11 @@ header {
 }
 .content {
 	margin-top: 75px;
-	padding: 10px;
 	text-align: center;
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.5);
 	color: white;
+	padding: 75px;
 }
 footer {
 	min-height:260px;
