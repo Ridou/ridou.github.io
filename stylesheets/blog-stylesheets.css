@@ -10,10 +10,12 @@ body {
 h1 {
 	font-size: 28px;
 	color: white;
+	font-style: bold;
 }
 h2 {
 	font-size: 22px;
 	color:white;
+	font-style: italic;
 }
 h3{
 	font-size: 26px;
@@ -137,7 +139,7 @@ header {
 	min-height: 600px;
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
-	float:right;
+	float: right;
 	width: 200px;
 	text-align: center;
 	color: white;
