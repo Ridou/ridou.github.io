@@ -32,7 +32,7 @@
           <li><a href="http://ridou.github.io/blog/c3-thinking-style.html">Think Man 10/26</a></li>
           <li><a href="http://ridou.github.io/blog/t3-arrays-hashes.html">Array Hash 10/26</a></li>
           <li><a href="http://ridou.github.io/blog/c4-tech-issues.html">Tech Issues 11/2</a></li>
-          <li><a href="#">Blog 9</a></li>
+          <li><a href="http://ridou.github.io/blog/t4-enumerable-methods.html">Enumerables 11/2</a></li>
           <li><a href="#">Blog 10</a></li>
           <li><a href="#">Blog 11</a></li>
           <li><a href="#">Blog 12</a></li>
@@ -64,13 +64,14 @@
     <div class="centercol">
       <div class="content">
  <h1>Enumerables!</h1>
-<h2></h2>
+<h2>Unmentionables</h2>
+<h6>Enumerable methods are very important in ruby to sort, group_by, collect, select, inject, and transform a collection of elements in an object. It is possible to see what all methods are provided by Enumerables by checking the output of the #instance_methods. 
 <br></br>
-Explain about Enumerable methods in general
-how they can be used and how to use them
-  enumerable map
-  enumerable group by
-  enumerable cycle
+The Enumerable map or collect can be used together with {|item| item} and when applied to an array or a hash it returns an array containing a set of two item arrays. For the hash it contains a key and value pair for each block.
+<br></br>
+The enumerable group_by is very convenient because it organizes data depending on their value. This could be useful for statistical usage and to create labels on groups to contain information and freely use it to construct a more detailed block.
+<br></br>
+The Enumerable cycle can be used to cycle through a block. This enumerable can be stopped if a condition is set or a number of times it is set to cycle. If non of these are set it will continue forever. This is useful to set time in codes for example to cycle the days of the week.</h6>
 <h5>-Richard Santin<h5>
       </div> <!-- end content -->
     </div> <!-- end centercol -->
