@@ -63,14 +63,14 @@
     </div> <!-- end right col -->
     <div class="centercol">
       <div class="content">
-<h1>Array and Hashes</h1>
-<h2>The Epic of Array and Hash</h2>
-<h6>Arrays are ordered, integer-indexed collections of objects. Each element in an arrays is associated with and referred to by an index that starts at 0. These arrays can hold objects like String, Integer, Fixnum, Hash, Symbol and Array Objects. Ruby arrays grow automatically while adding elements to them.
-
-Hashes are dictionary-like collection of unique keys and their value pairs. Hashes enumerate their values in the order that the keys were inserted.
-
-Hashes are similar to Arrays, but where an Array uses integers as its index, a Hash allows you to use any object type.</h6>
+ <h1>Inheritance vs Composition</h1>
+<h2>I like options</h2>
+<h6>Classical inheritance is defined by the relationship between two objects mostly known as the superclass and subclass. Subclasses are specializations of their superclasses. Thus, creating the generalization/specialization relationship. Inheritance solves the problem of objects that share common behavior and allows to isolate shared code to implement those common algorithms into a subclass, while also allowing the possibility of adding new subclasses. Using super you can hook all the variables from the superclass into a subclass
 <br></br>
+Composition is similar to inheritance but instead of having to rely on implicit relationship of superclass/subclass you alter or replace functions in a module. It allows you to call functions in other classes.
+<br></br>
+In my opinion inheritance makes it much more easier to do open source coding because it allows the new user to add an extension with ease. Both composition and inheritance allow the user to reuse lines of code. I would use composition to package up code into modules that are used in many unrelated situations and inheritance when I am working with a common concept.
+</h6>
 <h5>-Richard Santin<h5>
       </div> <!-- end content -->
     </div> <!-- end centercol -->
