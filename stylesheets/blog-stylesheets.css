@@ -219,6 +219,7 @@ header {
 #centercol {
 	margin-left: 200px;
 	margin-right: 200px;
+	max-height: 800px;
 }
 #content {
 	text-align: center;
