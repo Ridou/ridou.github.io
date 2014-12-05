@@ -144,8 +144,7 @@ header {
 #rightcol ul {
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
-	list-style-type: none;s
-
+	list-style-type: none;
 }
 #rightcol ul li {
 	position: relative;
@@ -217,9 +216,9 @@ header {
 
 }
 #centercol {
+	max-height: 800px;
 	margin-left: 200px;
 	margin-right: 200px;
-	max-height: 800px;
 }
 #content {
 	text-align: center;
