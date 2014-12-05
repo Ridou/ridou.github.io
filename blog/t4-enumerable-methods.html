@@ -3,27 +3,22 @@
 <head>
   <meta charset="utf-8">
   <title> Richard Santin @ DBC </title>
-
-  <meta name="The DBC Experience" content="Blog and Portfolio of my experience at DBC">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
+  <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheets.css">
-
+  <script type="text/javascript" src="../js/blog-js.js"></script>
+  <meta name="The DBC Experience" content="Blog and Portfolio of my experience at DBC">
 </head>
 <body>
-  <div class="wrapper">
+  <div id="wrapper">
   <header>
     <h1>The Tales of DevBootCamp</h1>
-    <br></br>
-    <h2>By: Richard Santin</h2>
-    <!-- <form class="bioform">
-    <p> Search</p>
-    <input type="search" name="search"/>
-    <input type="submit" value="Search"/>
-  </form> -->
-  <!-- working logo
-  <div id="logo"> <img src="image/path" width="150" height="150" alt="?" -->
+    <img id="rubyfun" src="http://mlafeldt.github.io/static/images/practicingruby.png"</img>
+     <!-- <h2>By: Richard Santin</h2> -->
   </header> <!-- end header -->
-  <div class="container">
-    <div class="leftcol"> 
+  <div id="container">
+    <div id="leftcol"> 
       <h4>Blog</h4>
       <ul>
           <li><a href="http://ridou.github.io/blog/c1-chefs-kitchen.html">DBC EXP 10/12</a></li>
@@ -43,7 +38,7 @@
           <li><a href="http://ridou.github.io/blog/t8-tech.html">Memory 11/30</a></li>
       </ul>
     </div> <!-- end left col -->
-    <div class="rightcol">
+    <div id="rightcol">
       <h4>Portfolio</h4>
       <ul>
           <li><a href="#">Blog 1</a></li>
@@ -63,18 +58,19 @@
           <li><a href="#">Blog 12</a></li>
       </ul>
     </div> <!-- end right col -->
-    <div class="centercol">
-      <div class="content">
- <h1>Enumerables!</h1>
-<h2>Unmentionables</h2>
-<h6>Enumerable methods are very important in ruby to sort, group_by, collect, select, inject, and transform a collection of elements in an object. It is possible to see what all methods are provided by Enumerables by checking the output of the #instance_methods. 
-<br></br>
-The Enumerable map or collect can be used together with {|item| item} and when applied to an array or a hash it returns an array containing a set of two item arrays. For the hash it contains a key and value pair for each block.
-<br></br>
-The enumerable group_by is very convenient because it organizes data depending on their value. This could be useful for statistical usage and to create labels on groups to contain information and freely use it to construct a more detailed block.
-<br></br>
-The Enumerable cycle can be used to cycle through a block. This enumerable can be stopped if a condition is set or a number of times it is set to cycle. If non of these are set it will continue forever. This is useful to set time in codes for example to cycle the days of the week.</h6>
-<h5>-Richard Santin<h5>
+
+    <div id="centercol">
+      <div id="content">
+        <h1>Enumerables!</h1>
+        <h2>Unmentionables</h2>
+        <h6>Enumerable methods are very important in ruby to sort, group_by, collect, select, inject, and transform a collection of elements in an object. It is possible to see what all methods are provided by Enumerables by checking the output of the #instance_methods. 
+        <br></br>
+        The Enumerable map or collect can be used together with {|item| item} and when applied to an array or a hash it returns an array containing a set of two item arrays. For the hash it contains a key and value pair for each block.
+        <br></br>
+        The enumerable group_by is very convenient because it organizes data depending on their value. This could be useful for statistical usage and to create labels on groups to contain information and freely use it to construct a more detailed block.
+        <br></br>
+        The Enumerable cycle can be used to cycle through a block. This enumerable can be stopped if a condition is set or a number of times it is set to cycle. If non of these are set it will continue forever. This is useful to set time in codes for example to cycle the days of the week.</h6>
+        <h5>-Richard Santin<h5>
       </div> <!-- end content -->
     </div> <!-- end centercol -->
   </div> <!-- end container -->

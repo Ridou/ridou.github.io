@@ -3,27 +3,22 @@
 <head>
   <meta charset="utf-8">
   <title> Richard Santin @ DBC </title>
-
-  <meta name="The DBC Experience" content="Blog and Portfolio of my experience at DBC">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
+  <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheets.css">
-
+  <script type="text/javascript" src="../js/blog-js.js"></script>
+  <meta name="The DBC Experience" content="Blog and Portfolio of my experience at DBC">
 </head>
 <body>
-  <div class="wrapper">
+  <div id="wrapper">
   <header>
     <h1>The Tales of DevBootCamp</h1>
-    <br></br>
-    <h2>By: Richard Santin</h2>
-    <!-- <form class="bioform">
-    <p> Search</p>
-    <input type="search" name="search"/>
-    <input type="submit" value="Search"/>
-  </form> -->
-  <!-- working logo
-  <div id="logo"> <img src="image/path" width="150" height="150" alt="?" -->
+    <img id="rubyfun" src="http://mlafeldt.github.io/static/images/practicingruby.png"</img>
+     <!-- <h2>By: Richard Santin</h2> -->
   </header> <!-- end header -->
-  <div class="container">
-    <div class="leftcol"> 
+  <div id="container">
+    <div id="leftcol"> 
       <h4>Blog</h4>
       <ul>
           <li><a href="http://ridou.github.io/blog/c1-chefs-kitchen.html">DBC EXP 10/12</a></li>
@@ -43,7 +38,7 @@
           <li><a href="http://ridou.github.io/blog/t8-tech.html">Memory 11/30</a></li>
       </ul>
     </div> <!-- end left col -->
-    <div class="rightcol">
+    <div id="rightcol">
       <h4>Portfolio</h4>
       <ul>
           <li><a href="#">Blog 1</a></li>
@@ -63,17 +58,18 @@
           <li><a href="#">Blog 12</a></li>
       </ul>
     </div> <!-- end right col -->
-    <div class="centercol">
-      <div class="content">
- <h1>Inheritance vs Composition</h1>
-<h2>I like options</h2>
-<h6>Classical inheritance is defined by the relationship between two objects mostly known as the superclass and subclass. Subclasses are specializations of their superclasses. Thus, creating the generalization/specialization relationship. Inheritance solves the problem of objects that share common behavior and allows to isolate shared code to implement those common algorithms into a subclass, while also allowing the possibility of adding new subclasses. Using super you can hook all the variables from the superclass into a subclass
-<br></br>
-Composition is similar to inheritance but instead of having to rely on implicit relationship of superclass/subclass you alter or replace functions in a module. It allows you to call functions in other classes.
-<br></br>
-In my opinion inheritance makes it much more easier to do open source coding because it allows the new user to add an extension with ease. Both composition and inheritance allow the user to reuse lines of code. I would use composition to package up code into modules that are used in many unrelated situations and inheritance when I am working with a common concept.
-</h6>
-<h5>-Richard Santin<h5>
+
+    <div id="centercol">
+      <div id="content">
+        <h1>Inheritance vs Composition</h1>
+        <h2>I like options</h2>
+        <h6>Classical inheritance is defined by the relationship between two objects mostly known as the superclass and subclass. Subclasses are specializations of their superclasses. Thus, creating the generalization/specialization relationship. Inheritance solves the problem of objects that share common behavior and allows to isolate shared code to implement those common algorithms into a subclass, while also allowing the possibility of adding new subclasses. Using super you can hook all the variables from the superclass into a subclass
+        <br></br>
+        Composition is similar to inheritance but instead of having to rely on implicit relationship of superclass/subclass you alter or replace functions in a module. It allows you to call functions in other classes.
+        <br></br>
+        In my opinion inheritance makes it much more easier to do open source coding because it allows the new user to add an extension with ease. Both composition and inheritance allow the user to reuse lines of code. I would use composition to package up code into modules that are used in many unrelated situations and inheritance when I am working with a common concept.
+        </h6>
+        <h5>-Richard Santin<h5>
       </div> <!-- end content -->
     </div> <!-- end centercol -->
   </div> <!-- end container -->

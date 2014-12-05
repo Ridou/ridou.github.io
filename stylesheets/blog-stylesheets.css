@@ -10,12 +10,12 @@ body {
 h1 {
 	font-size: 28px;
 	color: white;
-	font-style: bold;
+	font-weight: bold;
 }
 h2 {
 	font-size: 22px;
 	color:white;
-	font-style: italic;
+	font-weight: bold;
 }
 h3{
 	font-size: 26px;
@@ -29,30 +29,28 @@ h5 {
 	font-size: 18px;
 }
 h6 {
-	font-size: 18px;
+	font-size: 20px;
+	font-style: bold;
 }
-.wrapper {
+#wrapper {
 	background: url(https://raw.githubusercontent.com/ridou/ridou.github.io/master/img/black_wood.jpg);
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 	width: 100%;
 	height: 100%;
 }
 header {
-	background: url(https://raw.githubusercontent.com/ridou/ridou.github.io/master/img/devbootcamp.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-	min-height: 130px;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 15px;
+	text-align: center;
 	
 }
-.container {
+#container {
 	min-height: 600px;
 	overflow: hidden;
 	height:80%;
   }
-.leftcol {
+#leftcol {
 	min-height: 600px;
 	float: left;
 	width: 200px;
@@ -61,13 +59,13 @@ header {
 	background: rgba(0,0,0,0.35);
 	color: white;
 }
-.leftcol ul {
+#leftcol ul {
 	list-style-type: none;
-	min-height: 550px;
+	height: 100%;
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
 }
-.leftcol ul li {
+#leftcol ul li {
 	display: inline-block;
   	position: relative;
   	float:right;
@@ -97,7 +95,7 @@ header {
 	-webkit-border-bottom-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 }
-.leftcol ul li:before {
+#leftcol ul li:before {
 	pointer-events: none;
   	position: absolute;
   	content: '';
@@ -120,12 +118,12 @@ header {
   	transition-property: width, height;
 
 }
-.leftcol ul li:hover:before, .leftcol:focus:before, .leftcol:active:before {
+#leftcol ul li:hover:before, .leftcol:focus:before, .leftcol:active:before {
 	width: 25px;
   	height: 25px;
 
 }
-.leftcol ul li a {
+#leftcol ul li a {
 	display: block;
 	text-align: center;	
 	text-decoration: none;
@@ -133,9 +131,9 @@ header {
 	width: 150px;
 	line-height: 20px;
 }
-.leftcol ul li a:hover {
+#leftcol ul li a:hover {
 }
-.rightcol {
+#rightcol {
 	min-height: 600px;
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
@@ -144,14 +142,14 @@ header {
 	text-align: center;
 	color: white;
 }
-.rightcol ul {
+#rightcol ul {
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
 	list-style-type: none;
-	min-height: 550px;
+	height: 100%;
 
 }
-.rightcol ul li {
+#rightcol ul li {
 	position: relative;
 	display: inline-block;
   	position: relative;
@@ -183,7 +181,7 @@ header {
 	border-bottom-right-radius: 15px;
 	
 }
-.rightcol ul li:before {
+#rightcol ul li:before {
 	pointer-events: none;
   	position: absolute;
   	content: '';
@@ -203,12 +201,12 @@ header {
   	transition-property: width, height;
 
 }
-.rightcol ul li:hover:before, .leftcol:focus:before, .leftcol:active:before {
+#rightcol ul li:hover:before, .leftcol:focus:before, .leftcol:active:before {
 	width: 25px;
   	height: 25px;
 
 }
-.rightcol ul li a {
+#rightcol ul li a {
 	display: block;
 	text-align: center;
 	height: 20px;
@@ -217,24 +215,24 @@ header {
 	line-height: 20px;
 	color: black;
 }
-.rightcol ul li a:hover {
+#rightcol ul li a:hover {
 
 }
-.centercol {
+#centercol {
 	min-height: 565px;
 	margin-left: 200px;
 	margin-right: 200px;
 }
-.content {
-	margin-top: 75px;
+#content {
 	text-align: center;
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.5);
 	color: white;
 	padding-left: 175px;
 	padding-right: 175px;
-	padding-top: 10px;
+	padding-top: 50px;
 	padding-bottom: 10px;
+	height: 100%;
 }
 footer {
 	min-height:260px;
