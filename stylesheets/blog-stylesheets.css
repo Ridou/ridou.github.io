@@ -57,6 +57,7 @@ header {
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
 	color: white;
+	max-height: 800px;
 }
 #leftcol ul {
 	list-style-type: none;
@@ -138,6 +139,7 @@ header {
 	width: 200px;
 	text-align: center;
 	color: white;
+	max-height: 800px;
 }
 #rightcol ul {
 	background: #7f7f7f;
@@ -215,9 +217,9 @@ header {
 
 }
 #centercol {
-	min-height: 565px;
 	margin-left: 200px;
 	margin-right: 200px;
+	max-height: 800px;
 }
 #content {
 	text-align: center;
