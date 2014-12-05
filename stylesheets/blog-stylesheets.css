@@ -51,7 +51,6 @@ header {
 	height:80%;
   }
 #leftcol {
-	min-height: 600px;
 	float: left;
 	width: 200px;
 	text-align: center;
@@ -61,7 +60,6 @@ header {
 }
 #leftcol ul {
 	list-style-type: none;
-	height: 100%;
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
 }
@@ -134,7 +132,6 @@ header {
 #leftcol ul li a:hover {
 }
 #rightcol {
-	min-height: 600px;
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
 	float: right;
@@ -145,8 +142,7 @@ header {
 #rightcol ul {
 	background: #7f7f7f;
 	background: rgba(0,0,0,0.35);
-	list-style-type: none;
-	height: 100%;
+	list-style-type: none;s
 
 }
 #rightcol ul li {
@@ -231,7 +227,6 @@ header {
 	padding-left: 175px;
 	padding-right: 175px;
 	padding-top: 50px;
-	padding-bottom: 10px;
 	height: 100%;
 }
 footer {
