@@ -49,20 +49,17 @@ header {
 	min-height: 600px;
 	overflow: hidden;
 	height:80%;
+	background: rgba(0,0,0,0.4);
   }
 #leftcol {
 	float: left;
 	width: 200px;
 	text-align: center;
-	background: #7f7f7f;
-	background: rgba(0,0,0,0.35);
 	color: white;
 	max-height: 800px;
 }
 #leftcol ul {
 	list-style-type: none;
-	background: #7f7f7f;
-	background: rgba(0,0,0,0.35);
 }
 #leftcol ul li {
 	display: inline-block;
@@ -132,8 +129,6 @@ header {
 #leftcol ul li a:hover {
 }
 #rightcol {
-	background: #7f7f7f;
-	background: rgba(0,0,0,0.35);
 	float: right;
 	width: 200px;
 	text-align: center;
@@ -141,8 +136,6 @@ header {
 	max-height: 800px;
 }
 #rightcol ul {
-	background: #7f7f7f;
-	background: rgba(0,0,0,0.35);
 	list-style-type: none;
 }
 #rightcol ul li {
@@ -220,8 +213,6 @@ header {
 }
 #content {
 	text-align: center;
-	background: #7f7f7f;
-	background: rgba(0,0,0,0.5);
 	color: white;
 	padding-left: 175px;
 	padding-right: 175px;
@@ -232,7 +223,6 @@ header {
 footer {
 	min-height:260px;
 	overflow: hidden;
-	background-color: white;
 	background: rgba(0,0,0,0.4);
 }
 #gcalendar {
