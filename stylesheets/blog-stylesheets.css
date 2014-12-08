@@ -218,7 +218,7 @@ header {
 	padding-right: 175px;
 	padding-top: 50px;
 	height: 100%;
-	overflow: auto;
+	overflow: scroll;
 }
 footer {
 	min-height:260px;
